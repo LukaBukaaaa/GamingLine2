@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: black;
     display: block;
+    background-color: rgb(32, 32, 32);
 }
 
 header {
@@ -17,13 +17,13 @@ header img {
 }
 
 nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid grey;
     padding: -1px 96px 25px 91px;
     justify-content: space-between;
     display: flex;
     margin-top: 20px;
-    background: brown;
+    background: 44, 44, 44;
 }
 
 .nav-link {
@@ -31,7 +31,7 @@ nav {
     color: white;
     text-decoration: none;
     padding: 30px 103px;
-    background: gold;
+    background: black;
 }
 
 h1 {
@@ -57,7 +57,7 @@ article {
     width: 400px;
     margin-left: 20px;
     margin-top: 20px;
-    border: 10px solid brown;
+    border: 10px solid gray;
     o: center;
     justify-content: center;
     border-radius: 16px;
@@ -76,7 +76,7 @@ article {
 }
 
 footer h1 {
-    background-color: Grey;    
+    background-color: gray;    
     color: white;
     display: flex;    
 }
@@ -91,32 +91,29 @@ p {
 
 .nav-link:hover {
     color: white;
-    background: brown;
+    background: gray;
 }
 
 .article-but:hover {
-    background-color: brown;
-    color: black;
+    background-color: grey;
+    color: white;
 }
 
 
-<<<<<<< HEAD
 /* header h1 {
     margin-right: 900px;
 } */
-=======
+
 header h1 {
     /* margin-right: 900px; */
     text-align: left;
 }
->>>>>>> a57dcb01128bcf7ba90d9bfddd39a7467b0acbb7
 
 main {
     display: flex;
     flex-direction: column;
 }
 
-<<<<<<< HEAD
 .center {
     with:100%;
     justify-content: center;
@@ -124,10 +121,8 @@ main {
 }
 .logo {
     float:left;
-=======
-.logo {
-    float:left;
 }
+
 .center {
     width: 100%;
     justify-content: center;
@@ -137,5 +132,4 @@ main {
 
 article img {
     width: 100%;
->>>>>>> a57dcb01128bcf7ba90d9bfddd39a7467b0acbb7
 }
