@@ -1,3 +1,5 @@
+
+
 body {
     font-family: sans-serif;
     display: block;
@@ -38,6 +40,8 @@ h1 {
     text-align: center;
     color: white;
     font-size: 36px;
+    font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+
 }
 
 p {
