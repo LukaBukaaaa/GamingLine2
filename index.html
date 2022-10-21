@@ -14,14 +14,36 @@
     
              
         </header>
+<button onclick="topFunction()" id="myBtn" title="Go to top">დაბრუნება</button>
 
         <nav>
             <a class="nav-link" href="">თამაშები</a>
-    <a class="nav-link" href="https://pixabay.com/videos/search/gaming/">ვიდეოები</a>
+    <a class="nav-link" href="https://www.youtube.com/c/GamingChannel171">ვიდეოები</a>
             <a class="nav-link" href="https://www.youtube.com/c/GameTrailers/videos">თრეილერები</a>
 
         </nav>
         <main>
+            <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
             <h1>თამაშები</h1>
 
             <section class="center info">
@@ -84,11 +106,10 @@
                     <a class="article-but" href="https://m.moreigr.com/shuter-games/2956-call-of-duty-black-ops-3-torrent.html">ჩაწერა</a>
                 </article>
             </section>
-           
-        </div>
-           
-    
+            </div>
+        
         </main>
+       
         <footer>
         <h1>საიტი შექმნა ლუკა აბგარიანმა</h1>
         </footer>
