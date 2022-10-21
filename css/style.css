@@ -1,6 +1,7 @@
 
 
 body {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
     font-family: sans-serif;
     display: block;
     background-color: rgb(32, 32, 32);
@@ -26,6 +27,8 @@ nav {
     display: flex;
     margin-top: 20px;
     background: 44, 44, 44;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 .nav-link {
@@ -34,18 +37,23 @@ nav {
     text-decoration: none;
     padding: 30px 103px;
     background: black;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 h1 {
     text-align: center;
     color: white;
     font-size: 36px;
-    font-family: "BPG Banner ExtraSquare Caps", sans-serif;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 
 }
 
 p {
     font-size: 24px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 .info {
@@ -69,6 +77,8 @@ article {
 
 .article-but {
     text-decoration: none;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
     background-color: white;
     color: black;
     font-size: 24px;
@@ -87,6 +97,8 @@ footer h1 {
 
 h2 {
     color:white;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 p {
@@ -111,6 +123,8 @@ p {
 header h1 {
     /* margin-right: 900px; */
     text-align: left;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 main {
@@ -153,6 +167,8 @@ article img {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+
 }
 
 #myBtn:hover {
