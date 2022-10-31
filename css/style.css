@@ -196,3 +196,14 @@ article img {
   ::-webkit-scrollbar-thumb:hover {
     background:black; 
   }
+
+iframe {
+border-color: rgb(17, 17, 17);
+border-style: solid;
+border-width: 10px;
+border-radius: 20px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
