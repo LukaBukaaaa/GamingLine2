@@ -50,6 +50,64 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
+<br>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="https://wallpapercave.com/wp/wp1809647.jpg" style="width:100%">
+      <div class="text">Gta5/ჯეტია5</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="https://images.wallpapersden.com/image/download/dwayne-johnson-the-rock-fortnite_bWVuammUmZqaraWkpJRmbmdlrWZlbWU.jpg" style="width:100%">
+      <div class="text">Fortnite/ფორთნაითი</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="https://wallpapercave.com/wp/NjGW245.jpg" style="width:100%">
+      <div class="text">Minecraft/მაინქრაფთი</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="https://images5.alphacoders.com/929/thumb-1920-929552.jpg" style="width:100%">
+        <div class="text">Forzahorizon/ფორზა</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="https://wallpaperaccess.com/full/196855.jpg" style="width:100%">
+        <div class="text">Roblox/რობლოქსი</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="https://images4.alphacoders.com/103/thumb-1920-1039553.jpg" style="width:100%">
+        <div class="text">Needforspeed/ნიდფორსპიდი</div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+
+ 
+    </div>
+    
+
+
 
             <h1>თამაშები</h1>
 
@@ -150,5 +208,34 @@ function topFunction() {
         <footer>
         <h1>საიტი შექმნა ლუკა აბგარიანმა</h1>
         </footer>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            
     </body>
 </html>
